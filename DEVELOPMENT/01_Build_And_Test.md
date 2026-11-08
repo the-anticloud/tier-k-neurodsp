@@ -1,0 +1,8 @@
+# Build & Test — K_NEURODSP
+
+```bash
+git clone https://github.com/neurodsp-tools/neurodsp
+cd k-neurodsp
+pip install -e .[dev]
+pytest tests/
+```
